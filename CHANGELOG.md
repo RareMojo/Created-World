@@ -1,3 +1,91 @@
+### Honesty: Created World | v1.2
+
+_Minecraft 1.20.1_ | _Forge 47.3.0_ 
+
+
+### Changes/Improvements ⭐
+
+- **Main Menu:** Remixed the Legacy RST Create menu for the Honesty series. Volume is controlled by the Jukebox/Noteblock audio options.
+- **Better Combat:** We are giving the Better Combat system a shot. It has compatibility with Alexs Caves.
+- **Removed Bloat:** Removed some redundant mods to improve load times and reduce the number of items.
+- **Shader Optimizations:** Several updates to shaders and their integration with Create to enhance performance. (There are issues with Complementary)
+- **Resource Packs:** Added/removed textures and animations to achieve a dark mode + Create themes.
+- **Quests:** Added several new quests as well as a money themed quest meant for mid to late or even post game content. (WIP)
+- **Server Config Tweaks:** Some things have been tweaked server-side that can't be reflected on SSP.
+- **Dynmap:** Will be up and ready to go sometime this patch.
+
+
+### Bug Fixes 🐛
+
+- **Sheet Recipes:** There were conflicts in how sheets were handled in recipes. I applied a script to fix this by allowing any plate of the correct material for recipes.
+- **Super Heated Blaze Burners:** Previously, giving the burners a Blaze Cake only heated them. Now, they should superheat as intended, and you should see them turn blue.
+- **AE2 Polymorph:** It was impossible to polymorph craft items that had the same recipe as others in AE2 interfaces. There is now a Polymorph button within ME Terminals.
+- **Unique Item Stacks:** It was possible to offhand a Create item, and its NBT data would become corrupted, causing it not to stack with other identical items.
+- **Invisible Enemies:** It was possible to encounter a fully invisible monster in the world. This should be fixed now.
+    - If they ever appear invisible to you, ensure that both `Block Face Culling` and `Max Block Entity` are disabled in Video options.
+- **Item Tags:** Using some scripts, I made some item tags to make searching easier:
+    - Searching `$agriculture`, `$decor_stations`, or `$doughs` in JEI will narrow down to a group of `@mod` or `@item` tags I felt would fit in this category.
+    - If you can think of more useful tags, let me know!
+- **Food Plates:** There were compatibility issues with crafting food display plates. You should be able to craft them now, and their recipes should show in JEI.
+- **Chisel/Chipped Compatibility:** There should be more cross-compatibility between Chisel and Chipped in general.
+- **Wood Support:** I can't fix them all, but more of the custom woods should at least be usable to make chests now.
+- **Quest Book:** Ensured you receive a quest book on first login now.
+- **Removed Craft:** Made Suspicious Sand and Suspicious Gravel uncraftable.
+- **AE2 Cables:** You can now 2x2 craft the normal cables to get their dense version.
+    - Again, let me know of other recipes like this we could add or change!
+- **Trackwork:** Wheels and components would show as invisible. This should be corrected now.
+    - If they ever appear invisible to you, ensure that both `Block Face Culling` and `Max Block Entity` are disabled in Video options.
+- **Broken Quests:** Removed broken quests or fixed existing ones.
+
+
+### Known Issues ☹️
+
+- **Complementary Shaders + Essential:** There is an issue with the Essential suite and Complementary Shaders specifically that causes enchanted glint items to appear as solid black in inventory screens randomly.
+    - You can work around this by removing Essential, which is a cosmetic MTX add-on.
+    - Alternatively, you can use a different shader, such as the included MakeUp - Ultra Fast, or any other shader you prefer.
+    - Lastly, you can just deal with it I guess!
+- **Complementary Shaders:** There is an issue when toggling Complementary Shaders off and back on; the game will crash. The game runs fine with the shaders, but switching back and forth is not possible.
+    - You can toggle shaders back on without crashing by switching to MakeUp - Ultra Fast, enabling shaders, and then switching back to Complementary Shaders.
+
+
+### Added Mods ✅
+
+- [Fancy Menu](https://www.curseforge.com/minecraft/mc-mods/fancymenu)
+- [Drippy Loading Screen](https://www.curseforge.com/minecraft/mc-mods/drippy-loading-screen)
+- [Better Combat](https://www.curseforge.com/minecraft/mc-mods/better-combat-by-daedelus) (+ Compatibilities)
+- [Alexs Caves](https://www.curseforge.com/minecraft/mc-mods/alexs-caves)
+- [Better 3rd Person](https://www.curseforge.com/minecraft/mc-mods/better-third-person)
+- [LMFT](https://www.curseforge.com/minecraft/mc-mods/lmft)
+- [Polymorphic Energistics](https://www.curseforge.com/minecraft/mc-mods/polymorphic-energistics)
+- [KubeJS Create](https://www.curseforge.com/minecraft/mc-mods/kubejs-create)
+- [Oculus](https://www.curseforge.com/minecraft/mc-mods/oculus) (Downgraded from 1.8.0 to 1.7.0)
+- [Iris & Oculus Flywheel Compatibility](https://www.curseforge.com/minecraft/mc-mods/iris-flywheel-compat)
+- [AllTheLeaks](https://www.curseforge.com/minecraft/mc-mods/alltheleaks)
+- [Create Sabers](https://www.curseforge.com/minecraft/mc-mods/create-sabers)
+- [CreateStuffAdditions Fix](https://www.curseforge.com/minecraft/mc-mods/createstuffadditions-fix)
+- [Trash Cans](https://www.curseforge.com/minecraft/mc-mods/trash-cans)
+- [Chipped Express](https://www.curseforge.com/minecraft/mc-mods/chipped-express)
+- [Rechiseled: Chipped](https://www.curseforge.com/minecraft/mc-mods/rechiseled-chipped)
+- [Moogs Voyager Structures](https://www.curseforge.com/minecraft/mc-mods/moogs-voyager-structures)
+- [Enchantment Descriptions](https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions)
+- Performance related mods and dependencies
+
+
+### Removed Mods ❌
+
+- [Iron Chests](https://www.curseforge.com/minecraft/mc-mods/iron-chests)
+- [Iron Shulker Boxes](https://www.curseforge.com/minecraft/mc-mods/iron-shulker-boxes)
+- [ClientTweaks](https://www.curseforge.com/minecraft/mc-mods/client-tweaks)
+- [Valkyrien Pirates](https://www.curseforge.com/minecraft/mc-mods/valkyrien-pirates) (+ Dependencies)
+- [Create: Eureka!](https://www.curseforge.com/minecraft/mc-mods/create-eureka)
+- [Create: Better Villager](https://www.curseforge.com/minecraft/mc-mods/create-better-villager)
+- [Create: Dynamic Village](https://www.curseforge.com/minecraft/mc-mods/dynamic-village) (Was spamming only one village type.)
+- [Lets Do WilderNature](https://www.curseforge.com/minecraft/mc-mods/lets-do-wildernature)
+- Some server only mods or dependencies
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Honesty: Created World | v1.1
 
 _Minecraft 1.20.1_ | _Forge 47.3.0_ 
@@ -17,8 +105,8 @@ _Minecraft 1.20.1_ | _Forge 47.3.0_
 
 Some new restrictions are in place.
 
-- `/home` Now has a 5 second warm up, and a 5 minute cooldown. Look for other ways around this if it annoys you! (In game items)
-- `/tpa NAME` Also has a 5 second warmup, and a 2 minute cooldown.
+- `/home` Now has a 5 second warm up, and a 10 minute cooldown. Look for other ways around this if it annoys you! (In game items)
+- `/tpa NAME` Also has a 5 second warmup, and a 5 minute cooldown.
 - `/spawn` Has a 5 second warmup.
 - `/rtp` Has  been disabled.
 - `/back` Can now be used once every hour after a death *only*.
