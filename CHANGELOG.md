@@ -77,7 +77,6 @@ _Minecraft 1.20.1_ | _Forge 47.3.0_
 - [Iron Shulker Boxes](https://www.curseforge.com/minecraft/mc-mods/iron-shulker-boxes)
 - [ClientTweaks](https://www.curseforge.com/minecraft/mc-mods/client-tweaks)
 - [Valkyrien Pirates](https://www.curseforge.com/minecraft/mc-mods/valkyrien-pirates) (+ Dependencies)
-- [Create: Eureka!](https://www.curseforge.com/minecraft/mc-mods/create-eureka)
 - [Create: Better Villager](https://www.curseforge.com/minecraft/mc-mods/create-better-villager)
 - [Create: Dynamic Village](https://www.curseforge.com/minecraft/mc-mods/dynamic-village) (Was spamming only one village type.)
 - [Lets Do WilderNature](https://www.curseforge.com/minecraft/mc-mods/lets-do-wildernature)
