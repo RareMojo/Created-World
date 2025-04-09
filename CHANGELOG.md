@@ -1,3 +1,39 @@
+### Honesty: Created World | v1.3
+
+_Minecraft 1.20.1_ | _Forge 47.3.0_ 
+
+
+### Changes/Improvements ⭐
+
+- **Better Combat:** Has better integration with Tinkers Construct.
+- **New Weapons:** Tinkers Construct has a few new weapons available.
+- **Performance:** Addressed some problematic mods causing performance or loading time issues.
+- **Map Expansion:** The map expansion is complete. Please keep long term builds within 7k of spawn for future world trimmings if possible.
+
+
+### Bug Fixes 🐛
+
+- **Washing Crushed Lead:** This is now possible, resulting in 9 lead nuggets.
+- **Third Person:** Is now reverted to vanilla. This resolves third person issues on moving vehicles.
+- **Updates:** Updated the following mods: `supplementaries`, `moonlight`, `tinkersconstruct`, `mantle`.
+
+
+### Added Mods ✅
+
+- [Tinker and Better Combat](https://www.curseforge.com/minecraft/mc-mods/tinker-and-better-combat)
+- [Tinkers' JSON Things](https://www.curseforge.com/minecraft/mc-mods/tinkers-things-json)
+- [Create: Less Ticking](https://www.curseforge.com/minecraft/mc-mods/create-less-ticking)
+
+
+### Removed Mods ❌
+
+- [Recipe Essentials](https://www.curseforge.com/minecraft/mc-mods/recipe-essentials-forge-fabric)
+- [Better Third Person](https://www.curseforge.com/minecraft/mc-mods/better-third-person)
+- [Lets Do Beach Party](https://www.curseforge.com/minecraft/mc-mods/lets-do-beachparty)
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### Honesty: Created World | v1.2
 
 _Minecraft 1.20.1_ | _Forge 47.3.0_ 
