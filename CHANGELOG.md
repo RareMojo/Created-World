@@ -7,6 +7,7 @@ _Minecraft 1.20.1_ | _Forge 47.3.0_
 
 - **Better Combat:** Has better integration with Tinkers Construct.
 - **New Weapons:** Tinkers Construct has a few new weapons available.
+- **Boss Sounds:** When fighting End Dragon or Wither, the sounds are now localized.
 - **Performance:** Addressed some problematic mods causing performance or loading time issues.
 - **Map Expansion:** The map expansion is complete. Please keep long term builds within 7k of spawn for future world trimmings if possible.
 
@@ -20,6 +21,7 @@ _Minecraft 1.20.1_ | _Forge 47.3.0_
 
 ### Added Mods ✅
 
+- [Bad Wither No Cookie](https://www.curseforge.com/minecraft/mc-mods/bad-wither-no-cookie-reloaded)
 - [Tinker and Better Combat](https://www.curseforge.com/minecraft/mc-mods/tinker-and-better-combat)
 - [Tinkers' JSON Things](https://www.curseforge.com/minecraft/mc-mods/tinkers-things-json)
 - [Create: Less Ticking](https://www.curseforge.com/minecraft/mc-mods/create-less-ticking)
